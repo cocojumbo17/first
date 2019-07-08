@@ -5,7 +5,7 @@
 #include <vector>
 #include <ctime>
 #include <iostream>
-
+//сортировка вставкой
 void sort_insert(std::vector<int>& data, int& check, int& swapping)
 {
 	size_t data_size = data.size();
@@ -30,7 +30,7 @@ void sort_insert(std::vector<int>& data, int& check, int& swapping)
 		}
 	}
 }
-
+//сортировка пузырьком
 void sort_bubble(std::vector<int>& data, int& check, int& swapping)
 {
 	size_t data_size = data.size();
